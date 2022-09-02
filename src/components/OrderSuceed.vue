@@ -33,8 +33,7 @@ export default {
     return{
       username: 'username',
       cartItems: [],
-      username: null
-    }
+      username: null    }
   },
   components:{
     'navbar-component': Navbar,
@@ -43,6 +42,7 @@ export default {
   mounted(){
     User.start()
     this.username = $cookies.get("username");
+    Navbar.orderSuceed()
   },
   async created(){
     if($cookies.get("clearData")){

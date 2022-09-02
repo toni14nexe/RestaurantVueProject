@@ -78,7 +78,6 @@ export default {
       username: null,
       cartItems: [],
       totalPrice: 0,
-      cartItemNumber: 0,
       nameSurnameMessage: null,
       adressMessage: null,
       zipMessage: null,
@@ -125,7 +124,7 @@ export default {
       async order(){
             var nameSurname = document.getElementById('name-surname').value;
             if(nameSurname.length==0){ this.nameSurnameMessage = "Empty field!"; }
-            else if(nameSurname.length>0 && nameSurname.length<7){ this.nameSurnameMessage = "This field must be at least 6 characters long!"; }
+            else if(nameSurname.length>0 && nameSurname.length<6){ this.nameSurnameMessage = "This field must be at least 6 characters long!"; }
             else{ this.nameSurnameMessage = null }
 
             var adress = document.getElementById('adress').value;

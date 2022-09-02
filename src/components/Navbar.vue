@@ -192,6 +192,9 @@ export default {
             }
             document.getElementById("cart-num").innerHTML = this.cartItemNumber;
             document.getElementById("total").innerHTML = this.totalPrice;
+        },
+        orderSuceed(){
+            document.getElementById("cart-num").innerHTML = 0;
         }
     }
 }
