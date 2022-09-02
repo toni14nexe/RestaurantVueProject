@@ -1,0 +1,256 @@
+{
+  "menus": [
+    {
+      "name": "Noodle Soup",
+      "price": "3.90",
+      "category": "soup",
+      "ingredients": "noodle, chicken, scallions, sesame oil, wine, soy sauce",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Rice Soup",
+      "ingredients": "pork, wine, carrots, cabbage, scallions",
+      "price": "4.50",
+      "category": "soup"
+    },
+    {
+      "id": 3,
+      "name": "Ramen Soup",
+      "ingredients": "chicken, garlic, soy sauce, Worcestershire sauce",
+      "price": "9.00",
+      "category": "soup"
+    },
+    {
+      "id": 4,
+      "name": "Rainbow Roll",
+      "ingredients": "imitation crab, cucumber, avocado, salmon, tuna, shrimp, yellowtail",
+      "price": "9.80",
+      "category": "sushi"
+    },
+    {
+      "id": "5",
+      "name": "Spicy Tuna",
+      "ingredients": "tuna, spicy mayo",
+      "price": "10.00",
+      "category": "sushi"
+    },
+    {
+      "id": 6,
+      "name": "Dragon Roll",
+      "ingredients": "eel, cucumber, crab sticks, eel sauce, avocado",
+      "price": "11.90",
+      "category": "sushi"
+    },
+    {
+      "id": 7,
+      "name": "Shrimp Tempura",
+      "ingredients": "shrimp tempura, avocado, eel sauce",
+      "price": "11.90",
+      "category": "sushi"
+    },
+    {
+      "id": 8,
+      "name": "Spider Roll",
+      "ingredients": "tempura soft-shell crab, cucumber, avocado, spicy mayo",
+      "price": "12.00",
+      "category": "sushi"
+    },
+    {
+      "id": 9,
+      "name": "Peking Roasted Duck",
+      "ingredients": "duck, cinnamon, pepper, honey, plum jam, onions",
+      "price": "10.00",
+      "category": "cook-grill"
+    },
+    {
+      "name": "Kung Pao Chicken",
+      "price": "12.00",
+      "category": "cook-grill",
+      "ingredients": "chicken, soy, dark soy sauce, hoisin sauce, vinegar, wine",
+      "id": 10
+    },
+    {
+      "id": 11,
+      "name": "Sweet and Sour Pork",
+      "ingredients": "pork, cornflour, garlic, ginger, onion, soy sauce",
+      "price": "12.50",
+      "category": "cook-grill"
+    },
+    {
+      "id": 12,
+      "name": "Hot Pot",
+      "ingredients": "beef, chicken, pork, tilapia, shrimp, noodles, spinach, broccoli, mushrooms, daikon",
+      "price": "12.90",
+      "category": "cook-grill"
+    },
+    {
+      "id": 13,
+      "name": "Dim Sums",
+      "ingredients": "pork, prawns, soy sauce, sesame oil, wonton skin, chilli, onions",
+      "price": "14.90",
+      "category": "cook-grill"
+    },
+    {
+      "id": 14,
+      "name": "Chow Mein",
+      "ingredients": "chicken, noodles, carrot, garlic, onion, beansprouts, cabbage, oyster sauce, soy sauce, sesame oil, wine, pepper, cornflour",
+      "price": "17.90",
+      "category": "cook-grill"
+    },
+    {
+      "id": 15,
+      "name": "Fried Hong-Kong Rice",
+      "ingredients": "rice, pork, soft-shell crab, beef, cucumber, avocado, spicy mayo, seasme oil, mushrooms, soy sauce, oyster sauce, avocado",
+      "price": "19.90",
+      "category": "cook-grill"
+    },
+    {
+      "id": 16,
+      "name": "Sichuan Pork",
+      "ingredients": "pork, rice, mushrooms, shallots, peanut oil, chilli, garlic, ginger, wine, bamboo shot, vinegar, cornflour, soy",
+      "price": "20.20",
+      "category": "cook-grill"
+    },
+    {
+      "name": "Tea",
+      "price": "2.70",
+      "category": "non-alc-drink",
+      "id": 17
+    },
+    {
+      "id": 18,
+      "name": "Coffee",
+      "price": "2.80",
+      "category": "non-alc-drink"
+    },
+    {
+      "id": 19,
+      "name": "Yunnan Coffee",
+      "price": "2.90",
+      "category": "non-alc-drink"
+    },
+    {
+      "id": 20,
+      "name": "Natural water 0.75l",
+      "price": "2.90",
+      "category": "non-alc-drink"
+    },
+    {
+      "id": 21,
+      "name": "Soda water 0.75l",
+      "price": "2.90",
+      "category": "non-alc-drink"
+    },
+    {
+      "id": "22",
+      "name": "Coca-cola",
+      "price": "3.00",
+      "category": "non-alc-drink"
+    },
+    {
+      "name": "Fanta",
+      "price": "3.00",
+      "category": "non-alc-drink",
+      "id": 23
+    },
+    {
+      "id": 24,
+      "name": "Sprite",
+      "price": "3.00",
+      "category": "non-alc-drink"
+    },
+    {
+      "id": 25,
+      "name": "Ice Tea",
+      "price": "3.00",
+      "category": "non-alc-drink"
+    },
+    {
+      "id": 26,
+      "name": "Salt soda water",
+      "price": "3.50",
+      "category": "non-alc-drink"
+    },
+    {
+      "id": 27,
+      "name": "Soybean milk",
+      "price": "5.50",
+      "category": "non-alc-drink"
+    },
+    {
+      "id": 28,
+      "name": "Pearl milk tea",
+      "price": "8.00",
+      "category": "non-alc-drink"
+    },
+    {
+      "id": 29,
+      "name": "Beer 0.33l",
+      "price": "3.00",
+      "category": "alc-drink"
+    },
+    {
+      "id": 30,
+      "name": "Beer 0.5l",
+      "price": "3.80",
+      "category": "alc-drink"
+    },
+    {
+      "id": 31,
+      "name": "Tsingtao beer 0.33l",
+      "price": "4.80",
+      "category": "alc-drink"
+    },
+    {
+      "id": 32,
+      "name": "Sinkiang Black Beer 0.33l",
+      "price": "4.90",
+      "category": "alc-drink"
+    },
+    {
+      "id": 33,
+      "name": "Chivas mixed with green tea",
+      "price": "6.90",
+      "category": "alc-drink"
+    },
+    {
+      "id": 34,
+      "name": "Tieguanyin",
+      "price": "7.00",
+      "category": "alc-drink"
+    },
+    {
+      "id": 35,
+      "name": "Jiuniang wine 0.75l",
+      "price": "12.00",
+      "category": "alc-drink"
+    },
+    {
+      "id": 36,
+      "name": "Osmanthus wine 0.75l",
+      "price": "15.00",
+      "category": "alc-drink"
+    }
+  ],
+  "cartItems": [],
+  "users": [
+    {
+      "username": "admin123",
+      "password": "Admin123",
+      "category": "admin",
+      "id": 1
+    },
+    {
+      "email": "toni5555@live.com",
+      "username": "toni5555",
+      "password": "Toni5555",
+      "adress": "Ljubljanska 12b",
+      "zipCode": "31500",
+      "city": "Našice",
+      "phone": "0913067273",
+      "category": "user",
+      "id": 2
+    }
+  ]
+}
