@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+
+body{
+  font-family: "Quicksand", sans-serif;
+  background-color: rgb(33, 37, 41);
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+  
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar { 
+    width: 0 !important 
+}
+
+.main{
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background-position: center top;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-color: rgb(33, 37, 41);
+}
+
+.img-first{
+  transition: 0.8s ease;
+  height: 50px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.img-second{
+  transition: 0.8s ease;
+  height: 50px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  display: none;
+}
+
+.big-btn{
+  transition: 0.8s ease;
+  background-color: rgb(33, 37, 41, 0.85);
+  color: #C7493A;
+  font-size: 2.5rem;
+  border: 2px solid #C7493A;
+  padding: 15px 6% 15px 6%;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.big-btn:hover{
+  transition: 0.8s ease;
+  background-color: #C7493A;
+  color: rgb(33, 37, 41);
+  border: 2px solid rgb(33, 37, 41);
+  letter-spacing: +4px;
+  font-size: 2.8rem;
+}
+
+.title{
+  color: #C7493A;
+  font-size: 7rem;
+  width: 100%;
+  background-color: rgb(33, 37, 41);
+  }
+
+  .title-div{
+    margin-top: 6rem;
+  }
+
+  .image-div{
+    background-position: center top;
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+
+  .image-div img{
+    width: 96%;
+    height: auto;
+    margin: 0 2% 0 2%;
+    border: 1px solid #C7493A;
+  }
+
+  .row-margin{
+    margin-top: 4%;
+  }
+
+  .big-text{
+    color: #C7493A;
+    text-align: center;
+    font-size: 3.5rem;
+  }
+
+  .small-text{
+    color: #C7493A;
+    text-align: center;
+    font-size: 1.8rem;
+  }
+
+  .align-right{
+    text-align: right;
+  }
+
+  .align-left{
+    text-align: left;
+  }
+
+  .sign-in-btn{
+    background-color: #C7493A;
+    color: #212529;
+    border: 2px solid #212529;
+    padding: 5px 20px 5px 20px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    transition: 0.8s ease;
+}
+
+.sign-in-btn:hover{
+    letter-spacing: +2px;
+    background-color: #212529;
+    color: #C7493A;
+    border: 2px solid #C7493A;
+    transition: 0.8s ease;
+}
+
+.input-message{
+  color: red;
+  font-weight: bold;
+  background-color: #FFB5A5;
+  border-radius: 5px;
+  padding: 0 10px 0 10px;
+  margin-top: 10px;
+}
+
+input{
+  border-radius: 10px;
+  opacity: 0.7;
+  text-align: center;
+  color: #C7493A;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: 0.8s ease;
+}
+
+input:hover{
+  transition: 0.8s ease;
+}
+
+#order-btn{
+  display: none;
+}
+
+#user-cart-btn{
+  display: none;
+}
+
+#title-a:hover .img-first{
+  transition: 0.8s ease;
+  display: none;
+}
+
+#title-a:hover .img-second{
+  transition: 0.8s ease;
+  display: inline;
+}
+
+.li-btn .img-first{
+  height: 2rem;
+}
+
+.li-btn .img-second{
+  height: 2.3rem;
+}
+
+.li-btn:hover .img-first{
+  transition: 0.8s ease;
+  display: none;
+}
+
+.li-btn:hover .img-second{
+  transition: 0.8s ease;
+  display: inline;
+}
+
+
+.switch-btn{
+  background-color: #212529;
+  border: none;
+  color: #C7493A;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: underline;
+  padding-bottom: 1rem;
+  transition: 0.8s ease;
+}
+
+.switch-btn:hover{
+  font-size: 1.4rem;
+  padding-bottom: 0.7rem;
+  letter-spacing: 2px;
+  transition: 0.8s ease;
+}
+
+
+
+
+  @media screen and (max-width: 1050px) {
+    .big-text{
+      font-size: 2.5rem;
+    }
+
+    .small-text{
+      font-size: 1.4rem;
+    }
+  }
+
+  @media screen and (min-width: 992px){
+    .main-switch{
+        height: 100%;
+    }
+
+    .lg-off{
+        display: none;
+    }  
+}
+
+  @media screen and (max-width: 768px) {
+    .title{
+      font-size: 3.5rem;
+    }
+
+    .title-div{
+      margin-top: 10vh;
+    }
+  }
+
+  @media screen and (max-height: 660px) {
+    .big-text{
+      font-size: 1.7rem;
+    }
+
+    .small-text{
+      font-size: 1.2rem;
+    }
+
+    .title{
+      font-size: 3.5rem;
+    }
+  }
