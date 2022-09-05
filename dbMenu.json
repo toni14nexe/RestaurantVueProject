@@ -233,7 +233,17 @@
       "category": "alc-drink"
     }
   ],
-  "cartItems": [],
+  "cartItems": [
+    {
+      "username": "toni5555",
+      "name": "Rice Soup",
+      "price": "4.50",
+      "quantity": 1,
+      "menuID": 2,
+      "totalPrice": 4.5,
+      "id": 1
+    }
+  ],
   "users": [
     {
       "username": "admin123",
