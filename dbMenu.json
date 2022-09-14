@@ -2,7 +2,7 @@
   "menus": [
     {
       "name": "Noodle Soup",
-      "price": "3.90",
+      "price": "3.91",
       "category": "soup",
       "ingredients": "noodle, chicken, scallions, sesame oil, wine, soy sauce",
       "id": 1
@@ -256,6 +256,24 @@
       "menuID": "5",
       "totalPrice": 10,
       "id": 2
+    },
+    {
+      "username": "toni5555",
+      "name": "Noodle Soup",
+      "price": "3.90",
+      "quantity": 1,
+      "menuID": 1,
+      "totalPrice": 3.9,
+      "id": 3
+    },
+    {
+      "username": "toni5555",
+      "name": "Rice Soup",
+      "price": "4.50",
+      "quantity": 3,
+      "menuID": 2,
+      "totalPrice": 13.5,
+      "id": 4
     }
   ],
   "users": [
@@ -269,7 +287,7 @@
       "email": "toni5555@live.com",
       "username": "toni5555",
       "password": "Toni5555",
-      "adress": "Ljubljanska 12a",
+      "adress": "Ljubljanska 12b",
       "zipCode": "31500",
       "city": "Našice",
       "phone": "0913067273",
