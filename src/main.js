@@ -70,6 +70,7 @@ const app = createApp(App);
 app.use(router);
 app.mount('#app');
 
+//install extension and running functions
 
 //npm i vue-router --save
 //npm install axios
