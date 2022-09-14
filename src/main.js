@@ -75,5 +75,7 @@ app.mount('#app');
 //npm install axios
 //npm install json-server -g
 //npm install vue-cookies
+//npm install cypress --save-dev
+//npm i cypress-real-events
 //to run db server: json-server dbMenu.json
 //to run server: npm run dev

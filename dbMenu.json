@@ -231,9 +231,33 @@
       "name": "Osmanthus wine 0.75l",
       "price": "15.00",
       "category": "alc-drink"
+    },
+    {
+      "name": "Juha",
+      "ingredients": "Juha classic ingredients",
+      "price": "6.20",
+      "category": "soup",
+      "id": 37
+    },
+    {
+      "name": "fddss",
+      "ingredients": "sdsds",
+      "price": "8.00",
+      "category": "sushi",
+      "id": 38
     }
   ],
-  "cartItems": [],
+  "cartItems": [
+    {
+      "username": "toni5555",
+      "name": "Spicy Tuna",
+      "price": "10.00",
+      "quantity": 1,
+      "menuID": "5",
+      "totalPrice": 10,
+      "id": 2
+    }
+  ],
   "users": [
     {
       "username": "admin123",
@@ -245,12 +269,23 @@
       "email": "toni5555@live.com",
       "username": "toni5555",
       "password": "Toni5555",
-      "adress": "Ljubljanska 12b",
+      "adress": "Ljubljanska 12a",
       "zipCode": "31500",
       "city": "Našice",
       "phone": "0913067273",
       "category": "user",
       "id": 2
+    },
+    {
+      "email": "asasasa@gmail.com",
+      "username": "user1234",
+      "password": "User1234",
+      "adress": "Ljubljanska 12a",
+      "zipCode": "31500",
+      "city": "Donja Motičina",
+      "phone": "0913067273",
+      "category": "user",
+      "id": 3
     }
   ]
 }

@@ -60,12 +60,8 @@ export default {
                             this.passwordOK = true;
                             VueCookies.set('username' , document.getElementById('username-log-in').value, "15min");
                             VueCookies.set('password' , document.getElementById('password-log-in').value, "15min");
-                            if(this.users[i].category == "user") {
-                                window.location.href = '/home';
-                            }
-                            else if(this.users[i].category == "admin"){
-                                window.location.href = '/administrator';
-                            }
+                                window.location = "https://toni14nexe.000webhostapp.com/checkDatabase.php?username=" + document.getElementById('username-log-in').value + 
+                                    "&password=" + document.getElementById('password-log-in').value
                         }
                     }
                 }

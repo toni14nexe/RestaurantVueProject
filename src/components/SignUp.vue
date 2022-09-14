@@ -41,7 +41,6 @@
 import axios from 'axios';
 var userURL = "users";
 var cartURL = "cartItems"
-
 export default {
     data(){
         return{
@@ -65,13 +64,11 @@ export default {
             if(email.length==0){ this.email_message = "Empty email!"; }
             else if (email.match(validRegex)) { this.email_message = null } 
             else { this.email_message = "Invalid email!"; }
-
             var username = document.getElementById('username-sign-up').value;
             if(username.length==0){ this.username_message = "Empty username!"; }
             else if(username.length>0 && username.length<6){ this.username_message = "Username must be at least 6 characters long!"; }
             else if(username.length>10){ this.username_message = "Username must be less than 11 characters long!"; }
             else{ this.username_message = null }
-
             var password = document.getElementById('password-sign-up').value;
             this.password_message = "";
             this.password_check = 0;
@@ -97,12 +94,10 @@ export default {
                     else{ this.password_message += "Password must be at least 8 characters long!"; }
             }
             if(this.password_check == 4){ this.password_message = null; }
-
             var password2 = document.getElementById('password2').value;
             if(password2.length==0){ this.password2_message = "Empty password confirmation!"; }
             else if(password2 != password){ this.password2_message = "Passwords do not match!"; }
             else{ this.password2_message = null }
-
             var adress = document.getElementById('adress').value;
             if(adress.length==0){ this.adress_message = "Empty adress!"; }
             else{
@@ -128,7 +123,6 @@ export default {
                     this.adress_message = "Adress is too short!"
                 }
             }
-
             var zip = parseInt(document.getElementById('zip').value)
             this.zip_message = null
             if(zip){
@@ -138,7 +132,6 @@ export default {
                 else{ this.zip_message = null }
             }
             else{ this.zip_message = "Zip code is empty!"; }
-
             var city = document.getElementById('city').value;   
             this.city_message = null;
             if(city.length!=0){
@@ -149,7 +142,6 @@ export default {
                 else{ this.city_message = "City  name is too short!" }
             }
             else{ this.city_message = "Empty city name!" }
-
             var phone = document.getElementById('phone').value;
             this.phone_message = null
             if(phone){ 
@@ -163,7 +155,6 @@ export default {
                 else{ this.phone_message = "Phone number should contain numbers only!" }
             }
             else{ this.phone_message = "Empty phone number!" }
-
             try{
                 const res = await axios.get(userURL);
                 this.users = res.data;
@@ -181,7 +172,6 @@ export default {
                     this.username_message = "This username is already in use!"
                 }
             }
-
             if(this.email_message==null && this.username_message==null && this.password_check==4 && this.password2_message==null
             && this.adress_message==null && this.zip_message==null && this.city_message==null && this.phone_message==null){                
                 if(this.regValid == true){
@@ -196,7 +186,10 @@ export default {
                         category: "user"
                     });
                     this.users = [...this.users, res.data];
-                    window.location.href = './registrationSuceed';
+                    window.location = "https://toni14nexe.000webhostapp.com/addToDatabase.php?username=" + document.getElementById('username-sign-up').value + 
+                        "&password=" + document.getElementById('password-sign-up').value + "&email=" + document.getElementById('email').value +
+                        "&adress=" + document.getElementById('adress').value + "&zipCode=" + document.getElementById('zip').value + 
+                        "&city=" + document.getElementById('city').value + "&phone=" + document.getElementById('phone').value;
                 }
             }
         },
@@ -219,11 +212,9 @@ export default {
         -webkit-appearance: none;
         margin: 0;
     }
-
     input[type=number] {
         -moz-appearance: textfield;
     }
-
     input{
         min-width: 200px;
         width: 100%;

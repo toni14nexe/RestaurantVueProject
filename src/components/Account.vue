@@ -199,11 +199,10 @@ export default {
           category: this.category,
           id: this.index
         });
-        document.getElementById("adressTr").style.display = 'none'
-        document.getElementById("adressMessageTr").style.display = 'none'
-        document.getElementById("adressInput").value = null
-        document.getElementById("adressChangeBtn").innerHTML = 'Change';
-        this.adressMessage = null;
+        var str = this.adress;
+        str = str.replace(/\s+/g, '+');
+        window.location = "https://toni14nexe.000webhostapp.com/updateDatabase.php?username=" + this.username +
+          "&option=adress&parameter="+str;
       }
     },
 
@@ -239,11 +238,8 @@ export default {
           category: this.category,
           id: this.index
         });
-        document.getElementById("zipTr").style.display = 'none'
-        document.getElementById("zipMessageTr").style.display = 'none'
-        document.getElementById("zipInput").value = null
-        document.getElementById("zipChangeBtn").innerHTML = 'Change';
-        this.zipMessage = null;
+        window.location = "https://toni14nexe.000webhostapp.com/updateDatabase.php?username=" + this.username +
+          "&option=zipCode&parameter="+this.zip;
       }
     },
 
@@ -282,11 +278,10 @@ export default {
           category: this.category,
           id: this.index
         });
-        document.getElementById("cityTr").style.display = 'none'
-        document.getElementById("cityMessageTr").style.display = 'none'
-        document.getElementById("cityInput").value = null
-        document.getElementById("cityChangeBtn").innerHTML = 'Change';
-        this.cityMessage = null;
+        var str = this.city;
+        str = str.replace(/\s+/g, '+');
+        window.location = "https://toni14nexe.000webhostapp.com/updateDatabase.php?username=" + this.username +
+          "&option=city&parameter="+str;
       }
     },
 
@@ -328,11 +323,8 @@ export default {
           category: this.category,
           id: this.index
         });
-        document.getElementById("phoneTr").style.display = 'none'
-        document.getElementById("phoneInput").value = null
-        document.getElementById("phoneMessageTr").style.display = 'none'
-        document.getElementById("phoneChangeBtn").innerHTML = 'Change';
-        this.phoneMessage = null;
+        window.location = "https://toni14nexe.000webhostapp.com/updateDatabase.php?username=" + this.username +
+          "&option=phone&parameter="+this.phone;
       }
     },
 
@@ -392,13 +384,10 @@ export default {
         this.passwordText += '*';
       }
       VueCookies.set('password' , this.password, "15min");
-      document.getElementById("passwordTr").style.display = 'none'
-      document.getElementById("passwordInput").value = null;
-      document.getElementById("passwordConfirmTr").style.display = 'none'
-      document.getElementById("passwordConfirmInput").value = null
-      document.getElementById("passwordMessageTr").style.display = 'none'
-      document.getElementById("passwordChangeBtn").innerHTML = 'Change';
-      this.passwordMessage = null;
+      var str = this.password;
+      str = str.replace(/\s+/g, '+');
+      window.location = "https://toni14nexe.000webhostapp.com/updateDatabase.php?username=" + this.username +
+        "&option=password&parameter="+str;
       }
     },
   }

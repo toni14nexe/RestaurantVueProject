@@ -1,5 +1,5 @@
 <template>
-    <div class='footer'>
+    <div id='footer'>
         <br>
         <div class="container-md">
             <div class="row">
@@ -33,6 +33,10 @@ export default {
 </script>
 
 <style scoped>
+    #footer{
+        text-align: center;
+    }
+
     div{
         background-color: #C7493A;
     }
