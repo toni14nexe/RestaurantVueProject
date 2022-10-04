@@ -45,10 +45,6 @@ export default {
 </script>
     
 <style scoped>
-    .title{
-        margin-top: 2.5%;
-        padding-top: 5%;
-    }
 
     .title-div{
         padding-bottom: 5%;

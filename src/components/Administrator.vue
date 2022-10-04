@@ -392,13 +392,13 @@ export default {
     }
 
     .top{
-        background-color: #C7493A;
+        background-color: var(--orange-main);
         width: 100%;
     }
 
     h1{
         padding-top: 20px;
-        color: #212529;
+        color: var(--gray-main);
         font-weight: bold;
     }
 
@@ -407,7 +407,7 @@ export default {
     }
 
     h2{
-        color: #C7493A;
+        color: var(--orange-main);
         font-weight: bold;
         margin-bottom: 1%;
         text-decoration: underline;
@@ -415,12 +415,12 @@ export default {
 
     h3{
         font-weight: bold;
-        color: #C7493A;
+        color: var(--orange-main);
     }
 
     select{
-        background-color: #c0b5b2;
-        color: #C7493A;
+        background-color: var(--light-gray);
+        color: var(--orange-main);
         font-size: 1.4rem;
         min-width: 40%;
         text-align: center;
@@ -440,14 +440,14 @@ export default {
     }
 
     .dollar{
-        color: #C7493A;
+        color: var(--orange-main);
         font-size: 1.5rem;
         font-weight: bold;
         display: inline;
     }
 
     hr{
-        background-color:#C7493A;
+        background-color:var(--orange-main);;
         height: 20px;
         border-radius: 20px;
         margin-top: 3.5%;

@@ -247,35 +247,7 @@
       "id": 38
     }
   ],
-  "cartItems": [
-    {
-      "username": "toni5555",
-      "name": "Spicy Tuna",
-      "price": "10.00",
-      "quantity": 1,
-      "menuID": "5",
-      "totalPrice": 10,
-      "id": 2
-    },
-    {
-      "username": "toni5555",
-      "name": "Noodle Soup",
-      "price": "3.90",
-      "quantity": 1,
-      "menuID": 1,
-      "totalPrice": 3.9,
-      "id": 3
-    },
-    {
-      "username": "toni5555",
-      "name": "Rice Soup",
-      "price": "4.50",
-      "quantity": 3,
-      "menuID": 2,
-      "totalPrice": 13.5,
-      "id": 4
-    }
-  ],
+  "cartItems": [],
   "users": [
     {
       "username": "admin123",

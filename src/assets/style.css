@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
 
+:root {
+  --orange-main: #C7493A;
+  --gray-main: #212529;
+  --skin-color: #FFB5A5;
+  --light-gray: #c0b5b2;
+}
+
 body{
   font-family: "Quicksand", sans-serif;
   background-color: rgb(33, 37, 41);
@@ -46,9 +53,9 @@ html::-webkit-scrollbar {
 .big-btn{
   transition: 0.8s ease;
   background-color: rgb(33, 37, 41, 0.85);
-  color: #C7493A;
+  color: var(--orange-main);
   font-size: 2.5rem;
-  border: 2px solid #C7493A;
+  border: 2px solid var(--orange-main);
   padding: 15px 6% 15px 6%;
   border-radius: 30px;
   font-weight: bold;
@@ -56,7 +63,7 @@ html::-webkit-scrollbar {
 
 .big-btn:hover{
   transition: 0.8s ease;
-  background-color: #C7493A;
+  background-color: var(--orange-main);
   color: rgb(33, 37, 41);
   border: 2px solid rgb(33, 37, 41);
   letter-spacing: +4px;
@@ -64,7 +71,7 @@ html::-webkit-scrollbar {
 }
 
 .title{
-  color: #C7493A;
+  color: var(--orange-main);
   font-size: 7rem;
   width: 100%;
   background-color: rgb(33, 37, 41);
@@ -84,7 +91,7 @@ html::-webkit-scrollbar {
     width: 96%;
     height: auto;
     margin: 0 2% 0 2%;
-    border: 1px solid #C7493A;
+    border: 1px solid var(--orange-main);
   }
 
   .row-margin{
@@ -92,13 +99,13 @@ html::-webkit-scrollbar {
   }
 
   .big-text{
-    color: #C7493A;
+    color: var(--orange-main);
     text-align: center;
     font-size: 3.5rem;
   }
 
   .small-text{
-    color: #C7493A;
+    color: var(--orange-main);
     text-align: center;
     font-size: 1.8rem;
   }
@@ -112,9 +119,9 @@ html::-webkit-scrollbar {
   }
 
   .sign-in-btn{
-    background-color: #C7493A;
-    color: #212529;
-    border: 2px solid #212529;
+    background-color: var(--orange-main);
+    color: var(--gray-main);
+    border: 2px solid var(--gray-main);
     padding: 5px 20px 5px 20px;
     font-weight: bold;
     font-size: 1.2rem;
@@ -124,16 +131,16 @@ html::-webkit-scrollbar {
 
 .sign-in-btn:hover{
     letter-spacing: +2px;
-    background-color: #212529;
-    color: #C7493A;
-    border: 2px solid #C7493A;
+    background-color: var(--gray-main);
+    color: var(--orange-main);
+    border: 2px solid var(--orange-main);
     transition: 0.8s ease;
 }
 
 .input-message{
   color: red;
   font-weight: bold;
-  background-color: #FFB5A5;
+  background-color: var(--skin-color);
   border-radius: 5px;
   padding: 0 10px 0 10px;
   margin-top: 10px;
@@ -143,7 +150,7 @@ input{
   border-radius: 10px;
   opacity: 0.7;
   text-align: center;
-  color: #C7493A;
+  color: var(--orange-main);
   font-weight: bold;
   font-size: 1.1rem;
   transition: 0.8s ease;
@@ -191,9 +198,9 @@ input:hover{
 
 
 .switch-btn{
-  background-color: #212529;
+  background-color: var(--gray-main);
   border: none;
-  color: #C7493A;
+  color: var(--orange-main);
   font-size: 1.2rem;
   font-weight: bold;
   text-decoration: underline;

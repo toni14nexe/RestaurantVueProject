@@ -402,7 +402,7 @@ export default {
   }
 
   table{
-    color: #C7493A;
+    color: var(--orange-main);
     font-size: 2rem;
     text-align: center;
   }
@@ -417,7 +417,7 @@ export default {
 
   .hide{
     display: none;
-    border: 2px solid #C7493A;
+    border: 2px solid var(--orange-main);
   }
 
   .message{

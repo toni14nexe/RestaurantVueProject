@@ -49,7 +49,6 @@ export default {
     }
 
     .title{
-        padding-top: 5%;
         background: none;
     }
     
